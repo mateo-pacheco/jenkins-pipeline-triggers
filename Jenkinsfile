@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
+                echo 'Prueba de triger'
                 sh 'python3 view_machine_data.py'
             }
         }
